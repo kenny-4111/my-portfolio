@@ -14,7 +14,7 @@ const HeroPic = () => {
       <img
         src="../../images/486323137_2646778108851483_8241475416036198862_n.jpg"
         alt="OLUYOLE KEHINDE"
-        className="max-h-[400px] max-w-[400px]  h-full w-full rounded-full  object-contain relative" // Adjusted to fit the design
+        className="max-h-[300px] max-w-[300px]  h-full w-full rounded-full  object-contain" // Adjusted to fit the design
       />
     </motion.div>
   );

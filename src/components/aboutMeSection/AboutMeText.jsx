@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { fadeIn } from "../Framermotion/Variant";
 import { Link } from "react-scroll";
+import { fadeIn } from "../FramerMotion/Variant";
 
 const AboutMeText = () => {
   return (

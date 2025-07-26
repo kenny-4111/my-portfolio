@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { fadeIn } from "../Framermotion/Variant";
+import { fadeIn } from "../FramerMotion/Variant";
 const HeroText = () => {
   return (
     <div className="flex flex-col gap-4 h-full justify-center md:text-left sm:text-center ">

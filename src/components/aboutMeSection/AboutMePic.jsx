@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { fadeIn } from "../Framermotion/Variant";
+import { fadeIn } from "../FramerMotion/Variant";
 
 const AboutMePic = () => {
   return (

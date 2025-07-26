@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { fadeIn } from "../Framermotion/Variant";
+import { fadeIn } from "../FramerMotion/Variant";
 
 const HeroPic = () => {
   return (

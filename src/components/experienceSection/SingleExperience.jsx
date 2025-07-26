@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { fadeIn } from "../FramerMotion/Variant";
+import { fadeIn } from "../tempMotion/Variant";
 
 const SingleExperience = ({ experience }) => {
   return (

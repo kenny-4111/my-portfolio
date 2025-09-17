@@ -2,7 +2,6 @@ import AboutMeMain from "./components/aboutMeSection/AboutMeMain";
 import ContactMain from "./components/contactMe/ContactMain";
 import ExperienceMain from "./components/experienceSection/ExperienceMain";
 import FooterMain from "./components/footer/FooterMain";
-import Helper from "./components/Helper";
 import HeroMain from "./components/Hero/HeroMain";
 import NavbarMain from "./components/navbar/NavbarMain";
 import ProjectMain from "./components/projectSection/ProjectMain";

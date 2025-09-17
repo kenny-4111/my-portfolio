@@ -8,7 +8,7 @@ function NavbarMain() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <nav className="max-w-[1300px] mx-auto mt-4 px-4 w-[95%] fixed top-0 left-1/2 -translate-x-1/2  bg-black rounded-full  border-orange border-[0.5px] z-50">
+    <nav className="max-w-[1300px] mx-auto mt-4 px-4 w-[95%] fixed top-0 left-1/2 -translate-x-1/2  bg-black rounded-full  border-cyan border-[0.5px] z-50">
       <div className="container mx-auto px-6 py-4 flex justify-between items-center">
         <NavbarLogo />
         <NavbarLinks />
@@ -16,8 +16,7 @@ function NavbarMain() {
         {/* Hamburger */}
         <button
           onClick={() => setMenuOpen(!menuOpen)}
-          className="lg:hidden text-white"
-        >
+          className="lg:hidden text-white">
           {menuOpen ? <X size={24} /> : <Menu size={24} />}
         </button>
       </div>

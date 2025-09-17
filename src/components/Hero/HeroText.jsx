@@ -9,8 +9,7 @@ const HeroText = () => {
         initial="hidden"
         whileInView="show"
         viewport={{ once: false, amount: 0 }}
-        className="lg:text-2xl sm:text-xl text-cyan"
-      >
+        className="lg:text-2xl sm:text-xl text-orange">
         FRONT-END WEB DEVELOPER
       </motion.h2>
       <motion.h1
@@ -18,8 +17,7 @@ const HeroText = () => {
         initial="hidden"
         whileInView="show"
         viewport={{ once: false, amount: 0 }}
-        className="md:text-[2.0rem] lg:text-6xl sm:4xl font-bold font-special text-orange"
-      >
+        className="md:text-[2.0rem] lg:text-6xl sm:4xl font-bold font-special text-cyan">
         OLUYOLE KEHINDE
       </motion.h1>
       <motion.p
@@ -27,9 +25,8 @@ const HeroText = () => {
         initial="hidden"
         whileInView="show"
         viewport={{ once: false, amount: 0 }}
-        className="text-lg mt-4 text-white"
-      >
-        A Tech savy, Development nerd with <br /> 1 year of experience
+        className="text-lg mt-4 text-white">
+        A Tech savy, Development nerd. hungry to pick up new challenges
       </motion.p>
     </div>
   );

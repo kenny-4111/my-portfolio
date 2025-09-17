@@ -9,11 +9,10 @@ const AboutMePic = () => {
       initial="hidden"
       whileInView="show"
       viewport={{ once: false, amount: 0 }}
-      className="h-[500px] w-[300px] relative  "
-    >
+      className="h-[500px] w-[300px] relative  ">
       <div className="h-full w-full rounded-[100px] absolute overflow-hidden">
         <img
-          src="../../images/about-me.jpg"
+          src="../../images/486323137_2646778108851483_8241475416036198862_n.jpg"
           alt="about"
           className="h-full w-auto object-cover "
         />

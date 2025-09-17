@@ -6,35 +6,35 @@ import { fadeIn } from "../FramerMotion/Variant";
 
 const Projects = [
   {
-    id: "p2s",
-    name: "P2S",
+    id: "ednut",
+    name: "Ednut",
     Year: "2025",
     align: "right",
-    image: "../../images/website-img-1.jpg",
-    link: "#",
+    image: "../../images/ednut.png",
+    link: "https://ednut.vercel.app/",
   },
   {
-    id: "milestone",
-    name: "Milestone",
+    id: "krea ai",
+    name: "Krea ai",
     Year: "2025",
     align: "left",
-    image: "../../images/website-img-2.webp",
-    link: "#",
+    image: "../../images/cartolinks.png",
+    link: "https://cartolinks-test-seven.vercel.app/",
   },
   {
-    id: "clepto",
-    name: "clepto",
+    id: "NimbleAcad",
+    name: "NimbleAcad",
     Year: "2025",
     align: "right",
-    image: "../../images/website-img-3.jpg",
-    link: "#",
+    image: "../../images/image.png",
+    link: "https://nimbleacademy.thenimblesgrp.com/",
   },
   {
     id: "Kenny",
     name: "P2S",
     Year: "2025",
     align: "left",
-    image: "../../images/website-img-4.jpg",
+    image: "../../images/p2s.png",
     link: "#",
   },
 ];
@@ -45,8 +45,7 @@ const ProjectMain = () => {
         variants={fadeIn("up", 0.2)}
         initial="hidden"
         whileInView="show"
-        viewport={{ once: false, amount: 0.7 }}
-      >
+        viewport={{ once: false, amount: 0.7 }}>
         <ProjectText />
       </motion.div>
 

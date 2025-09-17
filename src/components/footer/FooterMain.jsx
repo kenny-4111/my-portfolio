@@ -13,14 +13,17 @@ const FooterMain = () => {
     <div className="p-4">
       <div className="w-full h-[1px] bg-lightGrey mt-24"></div>
       <div className="md:flex hidden justify-between mt-4 max-w-[1200px] mx-auto">
-        <p className="text-3xl text-lightGrey">Oluyole Kehinde</p>
+        <a
+          href="#"
+          className="text-3xl text-lightGrey hover:text-cyan cursor-pointer">
+          Oluyole Kehinde
+        </a>
         <ul className="flex gap-4 text-lightGrey text-xl">
           {links.map((link, index) => (
             <li key={index}>
               <a
                 href={`#${link.section}`}
-                className="cursor-pointer  hover:text-white transition-all duration-500"
-              >
+                className="cursor-pointer  hover:text-cyan transition-all duration-500">
                 {link.link}
               </a>
             </li>
